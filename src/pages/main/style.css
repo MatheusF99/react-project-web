@@ -1,0 +1,69 @@
+.product-list{
+    
+    max-width: 700px;
+    margin: 100px auto 0;
+    padding: 0px 20px;
+}
+
+.product-list article{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 10px -1px 10px rgba(0, 0, 0, .2);
+}
+
+.product-list article p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.product-list article a{
+    text-decoration: none;
+    border-radius: 5px;
+    background: #333;
+    color: #ddd;
+    height: 42px;
+    margin-top: 5px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-list article a:hover{
+    opacity: .9;
+}
+
+.product-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.product-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product-list .actions button:hover{
+    opacity: 0.7;
+}
+.product-list .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.product-list .actions button[disabled]:hover{
+    opacity: 0.5;
+}
